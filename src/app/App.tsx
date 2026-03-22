@@ -1,12 +1,12 @@
-import './App.css'
+import type { FC } from "react";
+import { MarketTicker } from "@/features/market/components/MarketTicker";
 
-function App() {
-
+const App: FC = () => {
   return (
-    <div>
-      Alok
+    <div className="h-screen bg-gray-900 text-white">
+      <MarketTicker />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

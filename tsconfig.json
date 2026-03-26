@@ -12,6 +12,12 @@
     "lib": [
       "ESNext",
       "DOM"
-    ]
+    ],
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": [
+        "*"
+      ]
+    }
   }
 }
